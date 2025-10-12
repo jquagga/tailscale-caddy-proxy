@@ -50,6 +50,7 @@ jobs:
       pull-requests: write
       security-events: write
       actions: write
+      workflows: write
 
     steps:
       # Git Checkout
