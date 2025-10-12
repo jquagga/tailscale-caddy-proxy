@@ -9,8 +9,8 @@ if [ ! -z "$SKIP_CADDYFILE_GENERATION" ]; then
 else
 	echo "Building Caddy configfile"
 
-	echo $TS_HOSTNAME'.'$TS_TAILNET.'ts.net' >/etc/caddy/Caddyfile
-	echo 'reverse_proxy' $CADDY_TARGET >>/etc/caddy/Caddyfile
+	echo "$TS_HOSTNAME"'.'"$TS_TAILNET".'ts.net' >/etc/caddy/Caddyfile
+	echo 'reverse_proxy' "$CADDY_TARGET" >>/etc/caddy/Caddyfile
 fi
 
 echo "Starting Caddy"
