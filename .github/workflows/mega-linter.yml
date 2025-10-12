@@ -50,7 +50,6 @@ jobs:
       pull-requests: write
       security-events: write
       actions: write
-      workflows: write
 
     steps:
       # Git Checkout
@@ -73,7 +72,7 @@ jobs:
 
         # You can override MegaLinter flavor used to have faster performances
         # More info at https://megalinter.io/latest/flavors/
-        uses: oxsecurity/megalinter/flavors/terraform@v9.1.0 
+        uses: oxsecurity/megalinter/flavors/terraform@v9.1.0
 
         id: ml
 
