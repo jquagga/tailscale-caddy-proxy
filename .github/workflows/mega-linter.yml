@@ -49,6 +49,7 @@ jobs:
       issues: write
       pull-requests: write
       security-events: write
+      actions: write
 
     steps:
       # Git Checkout
