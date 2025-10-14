@@ -1,4 +1,4 @@
-FROM tailscale/tailscale@sha256:b2a19f6b6402adc26a2aa8cb90da66afe3061e718ac67ed3f21ec3d4b366439f
+FROM tailscale/tailscale@sha256:360e10ad95ad03950f66df03e0dab66287f9f89076ee4012d50bc6adceafcdf3
 
 ENV CADDY_TARGET=
 ENV TS_TAILNET=
